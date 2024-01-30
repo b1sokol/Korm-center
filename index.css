@@ -1,28 +1,138 @@
-body{
+body {
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif; */
+    background-image: url(./image/54578838033f10bd26c44b90c2ef1c3f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; 
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .logo{
+    width: 15%;
+  }
+  
+  header {
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  
+  .categories {
+    text-align: center;
     padding: 20px;
-    background: red;
-}
-header{
-    width: 100%;
-    height: 80px;
-    background: #fff;
-    border-radius: 50px;
-}
-.logo{
-    float: left;
-    width: 30%;
-    margin-left: 35px;
-}
-.basic{
-    padding: 20px;
-    margin-top: 50px;
-    background: #fff;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-.for{
-    width: 50%;
-    height: 50%;
-}
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+   .category-list li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+  }
+  .categories-container h2{
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+ .food{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+ }
+ .pig,.cow,.bird,.other{
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  height: 730px;
+  width: 300px;
+  padding: 10px;
+  word-wrap: break-word;
+  border: #fff 2px solid;
+  border-radius: 15px;
+  background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+
+ }
+ .pigimg,.cowimg,.chikenimg,.otherimg{
+  display: block;
+width: 70%;
+border: #fff 2px solid;
+border-radius: 50%;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+
+  
+
+  .carousel-caption h5{
+    font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pattaya', sans-serif;
+    color: #000;
+    margin-right: 150px;
+  }
+  .carousel-caption p{
+    color: #000;
+margin-left: 400px;
+  }
+  .carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: lightgray;
+  }
+  
+  .main-content {
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 20px 50px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+  }
+  .order{
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    border: 2px #fff solid;
+    border-radius: 15px;
+    margin: 30px 0 30px 100px;
+    padding-top: 50px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+  }
+  
+  footer {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Pattaya', sans-serif;
+    background-image: linear-gradient(to top, #ff0018, #ff5686, #ff99d4, #f6d2fb, #ffffff);
+    color: #000;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
