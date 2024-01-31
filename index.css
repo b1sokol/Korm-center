@@ -1,7 +1,7 @@
 body {
     /* font-family: 'Dancing Script', cursive;
     font-family: 'Pattaya', sans-serif; */
-    background-image: url(./image/54578838033f10bd26c44b90c2ef1c3f.jpg);
+    background-image: url(./image/комбайн.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -26,6 +26,14 @@ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, 
     color: white;
     padding: 1em 0;
     text-align: center;
+  }
+  .info1,.info2,.info3,.info4{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .info img{
+    width: 30%;
   }
   
   
@@ -66,17 +74,17 @@ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, 
   width: 300px;
   padding: 10px;
   word-wrap: break-word;
-  border: #fff 2px solid;
+  border: red 3px solid;
   border-radius: 15px;
-  background: rgb(255,0,0);
-background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+  background: #fff;
+/* background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%); */
 
  }
  .pigimg,.cowimg,.chikenimg,.otherimg{
   display: block;
 width: 70%;
-border: #fff 2px solid;
-border-radius: 50%;
+border: red 3px solid;
+border-radius: 10%;
 margin-bottom: 10px;
 margin-left: auto;
 margin-right: auto;
@@ -104,14 +112,38 @@ margin-left: 400px;
     font-family: 'Caveat', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Pattaya', sans-serif;
-    padding: 20px 0;
+    padding: 20px 10px 20px 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     border-radius: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+  }
+  .pay{
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pattaya', sans-serif;
+    background: #fff;
+    border: red 3px solid;
+    border-radius: 15px;
+  }
+  .pay h2,h3{
+    text-align: center;
+  }
+  .pay1,.pay2,.pay3{
+    padding: 5px;
+    border: #ff0018 3px solid;
+    border-radius: 10px;
+  }
+
+  .cretery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .order{
     font-family: 'Caveat', cursive;
