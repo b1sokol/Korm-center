@@ -1,7 +1,7 @@
 body {
     /* font-family: 'Dancing Script', cursive;
     font-family: 'Pattaya', sans-serif; */
-    background-image: url(./image/комбайн.jpg);
+    background-image: url(./image/wheat.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -21,12 +21,33 @@ body {
   }
   
   header {
-    background: rgb(255,0,0);
-background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
-    color: white;
-    padding: 1em 0;
+    width: 100%;
+    background: #fff;
+    padding: 1em ;
     text-align: center;
   }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    }
+    .container-logo{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+    }
+    .button{
+      font-family: 'Caveat', cursive;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Pattaya', sans-serif;
+      text-decoration: none;
+      color: #000;
+      margin-top: 5px;
+    }
+  
+
   .info1,.info2,.info3,.info4{
     display: flex;
     flex-wrap: nowrap;
@@ -42,7 +63,7 @@ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, 
     padding: 20px;
   }
   
-  .category-list {
+  /* .category-list {
     list-style: none;
     padding: 0;
   }
@@ -50,8 +71,8 @@ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, 
    .category-list li {
     display: inline-block;
     margin: 10px;
-    position: relative;
-  }
+    position: relative; */
+
   .categories-container h2{
     font-family: 'Caveat', cursive;
     font-family: 'Dancing Script', cursive;
@@ -114,12 +135,15 @@ margin-left: 400px;
     font-family: 'Pattaya', sans-serif;
     padding: 20px 10px 20px 10px;
     text-align: center;
-    border: 3px solid #ddd;
+    border: 3px solid red;
     border-radius: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+    background: #fff;
+  }
+  .main-content img{
+    border: 3px red solid;
+    border-radius: 15px;
   }
   .pay{
     padding: 20px;
@@ -156,14 +180,13 @@ margin-left: 400px;
     border-radius: 15px;
     margin: 30px 0 30px 100px;
     padding-top: 50px;
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
-  }
+    background: #fff;
+    }
   
   footer {
     font-family: 'Dancing Script', cursive;
 font-family: 'Pattaya', sans-serif;
-    background-image: linear-gradient(to top, #ff0018, #ff5686, #ff99d4, #f6d2fb, #ffffff);
+    background: #7d6400;
     color: #000;
     text-align: center;
     padding: 1em 0;
