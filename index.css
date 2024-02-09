@@ -44,7 +44,7 @@ body {
       margin-left: 15px;
       margin-top: 10px;
     }
-    .button{
+    .button1,.button2,.button3{
       border: #ff0018 2px solid;
       border-radius: 10px;
       font-size: 20px;
@@ -146,6 +146,9 @@ margin-left: 400px;
     margin-bottom: 50px;
     background: #fff;
   }
+ .korm-center{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   .main-content img{
     border: 3px red solid;
     border-radius: 15px;
@@ -164,8 +167,7 @@ margin-left: 400px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Pattaya', sans-serif;
     text-align: center;
-    width: 560px;
-    height: 400px;
+    width: 900px;
     border: 2px red solid;
     border-radius: 15px;
     margin: 30px 0 30px 100px;
@@ -174,6 +176,7 @@ margin-left: 400px;
     }
     .contact{
       margin: 50px;
+      width: 700px;
     }
     .phone{
       display: flex;
@@ -198,6 +201,22 @@ align-items: center;
     .map img{
       width: 100%;
     }
+    .location{
+      display: flex;
+flex-wrap: nowrap;
+align-items: center;
+    }
+    .location p{
+      margin-left: 10px;
+    }
+    .post{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .post p{
+      margin-left: 10px;
+    }
   
   footer {
     font-family: 'Dancing Script', cursive;
@@ -206,5 +225,29 @@ font-family: 'Pattaya', sans-serif;
     color: #000;
     text-align: center;
     padding: 1em 0;
+  }
+
+
+  @media (max-width: 1200px){
+    .categories-container{
+      max-width: 1000px;
+      padding-left: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+  @media (max-width: 1000px){
+    .categories-container{
+      max-width: 900px;
+    }
+  }
+  @media (max-width: 600px){
+    .order{
+max-width: 500px;
+    }
+    .map{
+      display: none;
+    }
   }
   
