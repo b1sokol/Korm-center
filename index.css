@@ -230,7 +230,6 @@ font-family: 'Pattaya', sans-serif;
 
   @media (max-width: 1200px){
     .categories-container{
-      max-width: 1000px;
       padding-left: 50px;
       display: flex;
       flex-wrap: wrap;
