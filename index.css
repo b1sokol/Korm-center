@@ -227,8 +227,13 @@ font-family: 'Pattaya', sans-serif;
     padding: 1em 0;
   }
 
+ 
 
-  @media (max-width: 1200px){
+   @media (max-width: 1200px){
+    .info img{
+      width: 30%;
+      height: auto;
+    }
     .categories-container{
       padding-left: 50px;
       display: flex;
@@ -236,17 +241,101 @@ font-family: 'Pattaya', sans-serif;
       justify-content: space-around;
     }
   }
+  @media (max-width: 1100px){
+    .order{
+      width: 90%;
+      margin-left: 50px;
+    }
+  }
+
   @media (max-width: 1000px){
     .categories-container{
       max-width: 900px;
     }
-  }
-  @media (max-width: 600px){
-    .order{
-max-width: 500px;
+     .info1 img{
+      height: 50%;
+      margin-top: 50px;
     }
+    .info2 img{
+height: 50%;
+margin-top: 50px;
+    }
+    .info3 img{
+height: 50%;
+margin-top: 50px;
+    }
+    .info4 img{
+height: 50%;
+margin-top: 50px;
+    }
+    .order{
+      width: 90%;
+      margin-left: 50px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .logo{
+      height: 20%;
+    }
+    .container-logo{
+      justify-content: start;
+    }
+  }
+  @media (max-width: 630px){
+    .button1,.button2,.button3{
+      font-size: small;
+    }
+  }
+
+  @media (max-width: 600px){
     .map{
       display: none;
     }
+    .order{
+      width: 500px;
+    }
+    .pig,.bird,.cow,.other{
+      margin-top: 20px;
+    }
+    .logo{
+      height: 20%;
+    }
   }
+  @media(max-width: 500px){
+    .order{
+      width: 400px;
+      margin-left: 30px;
+    }
+    .logo{
+      height: 20%;
+    }
+    .button1,.button2,.button3{
+      font-size: smaller;
+    }
+  }
+  @media (max-width: 490px){
+  ul{
+   padding-left: 0;
+  }
+  }
+  @media(max-width: 400px){
+    .order{
+      width: 300px;
+      margin-left: 30px;
+    }
+    .logo{
+      height: 20%;
+    }
+  }
+  @media(max-width: 300px){
+    .order{
+      width: 200px;
+      margin-left: 30px;
+    }
+    .logo{
+      height: 20%;
+    }
+  }
+
   
