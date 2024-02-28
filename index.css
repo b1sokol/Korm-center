@@ -316,6 +316,13 @@ margin-top: 50px;
     }
   }
   @media (max-width: 731px){
+    body{
+      background-image: url(./image/wheat.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: auto;
+   backface-visibility: 0.5;
+   }
     .pig,.bird,.cow,.other{
       margin: auto;
       margin-bottom: 10px;
