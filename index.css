@@ -1,93 +1,109 @@
 body {
-    background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    background-color: #fff; 
-    color: #333;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .logo{
-    width: 15%;
-  }
-  
-  header {
-    width: 100%;
-    background: #fff;
-    padding: 1em ;
-    text-align: center;
-  }
-  .fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    }
-    .container-logo{
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-    }
-    li{
-      display: inline-block;
-      margin-left: 15px;
-      margin-top: 10px;
-    }
-    .button1,.button2,.button3{
-      border: #ff0018 2px solid;
-      border-radius: 10px;
-      font-size: 20px;
-      font-family: 'Caveat', cursive;
-      font-family: 'Dancing Script', cursive;
-      font-family: 'Pattaya', sans-serif;
-      text-decoration: none;
-      color: #000;
-      margin-top: 15px;
-      padding: 10px;
-    }
-  
+  background-image: url(./image/wheat.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  backface-visibility: 0.5;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
 
-  .info1,.info2,.info3,.info4{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
-  .info img{
-    width: 30%;
-  }
-  
-  
-  .categories {
-    text-align: center;
-    padding: 20px;
-  }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 
-  .categories-container{
-    margin: 20px 0px 20px 0px;
-  }
-  .categories-container h2{
-    font-family: 'Caveat', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Pattaya', sans-serif;
-    color: #000;
-    text-align: center;
-  }
-  
- .food{
+.logo {
+  width: 15%;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.container-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.button1,
+.button2,
+.button3 {
+  border: #ff0018 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  text-decoration: none;
+  color: #000;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+
+.info1,
+.info2,
+.info3,
+.info4 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.info img {
+  width: 30%;
+}
+
+
+.categories {
+  text-align: center;
+  padding: 20px;
+}
+
+.categories-container {
+  margin: 20px 0px 20px 0px;
+}
+
+.categories-container h2 {
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+.food {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
   justify-content: space-between;
- }
- .pig,.cow,.bird,.other{
+}
+
+.pig,
+.cow,
+.bird,
+.other {
   font-family: 'Caveat', cursive;
   font-family: 'Dancing Script', cursive;
   font-family: 'Pattaya', sans-serif;
@@ -100,420 +116,550 @@ body {
   background: #fff;
 }
 
-.pig h3,.cow h3,.bird h3,.other h3{
+.pig h3,
+.cow h3,
+.bird h3,
+.other h3 {
   text-align: center;
   border: red 2px solid;
   border-radius: 10px;
 
 }
- .pigimg,.cowimg,.chikenimg,.otherimg{
+
+.pigimg,
+.cowimg,
+.chikenimg,
+.otherimg {
   display: block;
-width: 70%;
-border: red 3px solid;
-border-radius: 10%;
-margin-bottom: 10px;
-margin-left: auto;
-margin-right: auto;
- }
- .main-content {
-    font-family: 'Caveat', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Pattaya', sans-serif;
-    padding: 20px 10px 20px 10px;
-    text-align: center;
-    border: 3px solid red;
-    border-radius: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: #fff;
+  width: 70%;
+  border: red 3px solid;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  border: 3px solid red;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #fff;
+}
+
+.korm-center {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-content img {
+  border: 3px red solid;
+  border-radius: 15px;
+}
+
+.cretery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.order {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  width: 900px;
+  border: 2px red solid;
+  border-radius: 15px;
+  margin: auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.contact {
+  margin: 50px;
+  width: 700px;
+}
+
+.phone {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.phone p {
+  margin-left: 10px;
+}
+
+.mail {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.mail a {
+  margin-left: 10px;
+}
+
+.map {
+  width: 350px;
+  height: 350px;
+}
+
+.map img {
+  width: 100%;
+}
+
+.location {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.location p {
+  margin-left: 10px;
+}
+
+.post {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.post p {
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pattaya', sans-serif;
+  background: #7d6400;
+  color: #000;
+  text-align: center;
+  padding: 1em 0;
+}
+
+
+
+@media (max-width: 1200px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
   }
- .korm-center{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  .info img {
+    width: 30%;
+    height: auto;
   }
-  .main-content img{
-    border: 3px red solid;
-    border-radius: 15px;
-  }
-  .cretery{
+
+  .categories-container {
+    padding: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .order{
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: 'Caveat', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Pattaya', sans-serif;
-    text-align: center;
-    width: 900px;
-    border: 2px red solid;
-    border-radius: 15px;
-    margin: auto;
-    padding-top: 50px;
-    background: #fff;
-    }
-    .contact{
-      margin: 50px;
-      width: 700px;
-    }
-    .phone{
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      }
-      .phone p{
-        margin-left: 10px;
-      }
-    .mail{
-display: flex;
-flex-wrap: nowrap;
-align-items: center;
-    }
-    .mail a{
-      margin-left: 10px;
-    }
-    .map{
-      width: 350px;
-      height: 350px;
-    }
-    .map img{
-      width: 100%;
-    }
-    .location{
-      display: flex;
-flex-wrap: nowrap;
-align-items: center;
-    }
-    .location p{
-      margin-left: 10px;
-    }
-    .post{
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-    }
-    .post p{
-      margin-left: 10px;
-    }
-  
-  footer {
-    margin-top: 20px;
-    font-family: 'Dancing Script', cursive;
-font-family: 'Pattaya', sans-serif;
-    background: #7d6400;
-    color: #000;
-    text-align: center;
-    padding: 1em 0;
-  }
 
- 
-
-   @media (max-width: 1200px){
-    body{
-      background-image: url(./image/wheat.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: auto;
-      backface-visibility: 0.5;
-      margin: 0;
-      padding: 0;
-    }
-    .info img{
-      width: 30%;
-      height: auto;
-    }
-    .categories-container{
-      padding: auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
   }
-  @media (max-width: 1100px){
-    body{
-      background-image: url(./image/wheat.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: auto;
-      backface-visibility: 0.5;
-      margin: 0;
-      padding: 0;
-    }
-    .order{
-      width: 90%;
-      margin-left: 50px;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
-  }
+}
 
-  @media (max-width: 1000px){
-    body{
-      background-image: url(./image/wheat.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: auto;
-      backface-visibility: 0.5;
-      margin: 0;
-      padding: 0;
-    }
-    .categories-container{
-      max-width: 900px;
-    }
-     .info1 img{
-      height: 50%;
-      margin-top: 50px;
-    }
-    .info2 img{
-height: 50%;
-margin-top: 50px;
-    }
-    .info3 img{
-height: 50%;
-margin-top: 50px;
-    }
-    .info4 img{
-height: 50%;
-margin-top: 50px;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
-    .order{
-      width: 90%;
-      margin-left: 50px;
-    }
-  }
-
-  @media (max-width: 768px){
-    body{
-       background-image: url(./image/wheat.jpg);
+@media (max-width: 1100px) {
+  body {
+    background-image: url(./image/wheat.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
     backface-visibility: 0.5;
     margin: 0;
     padding: 0;
-    }
+  }
 
-    .logo{
-      width: 20%;
-    }
-    .container-logo{
-      justify-content: start;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
+  .order {
+    width: 90%;
+    margin-left: 50px;
   }
-  @media (max-width: 731px){
-    body{
-      background-image: url(./image/wheat.jpg);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: auto;
-   backface-visibility: 0.5;
-   margin: 0;
-   padding: 0;
-   }
-    .pig,.bird,.cow,.other{
-      margin: auto;
-      margin-bottom: 10px;
-    }
-    ul{
-      padding-left: 5px;
-    }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
   }
-  @media (max-width:635px){
-    .logo{
-      width: 20%;
-    }
-    ul{
-      display: inline-block;
-    }
-  }
-  @media (max-width: 630px){
-    body{
-       background-image: url(./image/wheat.jpg);
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-image: url(./image/wheat.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
     backface-visibility: 0.5;
     margin: 0;
     padding: 0;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .button1,.button2,.button3{
-      font-size: small;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
   }
-  .logo{
+
+  .categories-container {
+    max-width: 900px;
+  }
+
+  .info1 img {
+    height: 50%;
+    margin-top: 50px;
+  }
+
+  .info2 img {
+    height: 50%;
+    margin-top: 50px;
+  }
+
+  .info3 img {
+    height: 50%;
+    margin-top: 50px;
+  }
+
+  .info4 img {
+    height: 50%;
+    margin-top: 50px;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+  }
+
+  .order {
+    width: 90%;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
     width: 20%;
   }
 
-  @media (max-width: 600px){
-    body{
-       background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .map{
-      display: none;
-    }
-    .order{
-      width: 500px;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-      margin-top: 20px;
-      margin: auto;
-    }
-    .logo{
-      width: 20%;
-    }
-  }
-  @media(max-width: 500px){
-    body{
-       background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    }
-    header{
-      padding: 5px;
-    }
-    ul{
-      padding: 5px;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-    }
-    .order{
-      width: 400px;
-      margin-left: 20px;
-    }
-    .logo{
-      width: 25%;
-    }
-    .button1,.button2,.button3{
-      font-size: smaller;
-    }
-  }
-  @media (max-width: 490px){
-    body{
-       background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .categories-container{
-      padding: auto;
-      margin: auto;
-    }
-    .pig,.bird,.cow,.other{
-      width: 330px;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-    .container-logo{
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .logo{
-      width: 25%;
-      margin: auto;
-    }
-    .order{
-      width: 390px;
-      margin: auto;
-    }
-  }
-  @media(max-width: 400px){
-    body{
-       background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    }
-    .container-logo{
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .categories-container{
-      margin: auto;
-    }
-    .order{
-      width: 300px;
-      margin: auto;
-    }
-    .logo{
-      width: 25%;
-      margin: auto;
-    }
-    .phone,.mail,.location,.post{
-      margin-left: 10px;
-    }
-  }
-  @media(max-width: 300px){
-    body{
-       background-image: url(./image/wheat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: auto;
-    backface-visibility: 0.5;
-    margin: 0;
-    padding: 0;
-    }
-    .container-logo{
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .info1 img,.info2 img,.info3 img,.info4 img{
-      display: none;
-    }
-    .order{
-      width: 200px;
-      margin: auto;
-    }
-    .logo{
-     width: 30%;
-      margin: auto;
-    }
+  .container-logo {
+    justify-content: start;
   }
 
-  
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+  }
+}
+
+@media (max-width: 731px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width:635px) {
+  .logo {
+    width: 20%;
+  }
+
+  ul {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 630px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .button1,
+  .button2,
+  .button3 {
+    font-size: small;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+  }
+}
+
+.logo {
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .order {
+    width: 500px;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media(max-width: 500px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  ul {
+    padding: 5px;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+  }
+
+  .order {
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .button1,
+  .button2,
+  .button3 {
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 490px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .categories-container {
+    padding: auto;
+    margin: auto;
+  }
+
+  .pig,
+  .bird,
+  .cow,
+  .other {
+    width: 330px;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .container-logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 25%;
+    margin: auto;
+  }
+
+  .order {
+    width: 390px;
+    margin: auto;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .categories-container {
+    margin: auto;
+  }
+
+  .order {
+    width: 300px;
+    margin: auto;
+  }
+
+  .logo {
+    width: 25%;
+    margin: auto;
+  }
+
+  .phone,
+  .mail,
+  .location,
+  .post {
+    margin-left: 10px;
+  }
+}
+
+@media(max-width: 300px) {
+  body {
+    background-image: url(./image/wheat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    backface-visibility: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info1 img,
+  .info2 img,
+  .info3 img,
+  .info4 img {
+    display: none;
+  }
+
+  .order {
+    width: 200px;
+    margin: auto;
+  }
+
+  .logo {
+    width: 30%;
+    margin: auto;
+  }
+}
