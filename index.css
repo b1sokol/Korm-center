@@ -1,9 +1,8 @@
 body {
-  background-image: url(./image/wheat.jpg);
+  background-image: url(./image/back.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  backface-visibility: 0.5;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -23,7 +22,6 @@ header {
   width: 100%;
   background: #fff;
   padding: 1em;
-  text-align: center;
 }
 
 .fixed {
@@ -40,11 +38,15 @@ header {
   justify-content: space-around;
 }
 
+
+
 li {
   display: inline-block;
+  justify-content: center;
   margin-left: 15px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
+
 
 .button1,
 .button2,
@@ -250,11 +252,10 @@ footer {
 
 @media (max-width: 1200px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -281,11 +282,10 @@ footer {
 
 @media (max-width: 1100px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -305,11 +305,10 @@ footer {
 
 @media (max-width: 1000px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -353,11 +352,10 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -380,11 +378,10 @@ footer {
 
 @media (max-width: 731px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -414,11 +411,10 @@ footer {
 
 @media (max-width: 630px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -450,11 +446,10 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -490,11 +485,10 @@ footer {
 
 @media(max-width: 500px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -539,11 +533,10 @@ footer {
 
 @media (max-width: 490px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -587,11 +580,10 @@ footer {
 
 @media(max-width: 400px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
@@ -632,11 +624,10 @@ footer {
 
 @media(max-width: 300px) {
   body {
-    background-image: url(./image/wheat.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: 0.5;
     margin: 0;
     padding: 0;
   }
